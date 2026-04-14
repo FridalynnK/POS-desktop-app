@@ -1,0 +1,358 @@
+<UserControl x:Class="POS.UI.Views.AdminDashboardView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:converters="clr-namespace:POS.UI.Converters"
+ 
+        Background="{StaticResource BgPage}">
+
+    <UserControl.Resources>
+        <!-- Converters -->
+        <converters:ZeroToVisibilityConverter x:Key="ZeroToVisibility"/>
+
+        <!-- Component styles — reference tokens from Colors.xaml -->
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background"   Value="{StaticResource BgCard}"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding"      Value="16,14"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#000000" Opacity="0.35"
+                                      BlurRadius="14" ShadowDepth="2"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SectionHeader" TargetType="TextBlock">
+            <Setter Property="FontSize"   Value="10"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="{StaticResource TextMuted}"/>
+            <Setter Property="Margin"     Value="0,0,0,6"/>
+        </Style>
+
+        <Style x:Key="StatNumber" TargetType="TextBlock">
+            <Setter Property="FontSize"   Value="28"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Margin"     Value="0,0,0,2"/>
+        </Style>
+
+        <Style x:Key="StatLabel" TargetType="TextBlock">
+            <Setter Property="FontSize"   Value="11"/>
+            <Setter Property="Foreground" Value="{StaticResource TextMuted}"/>
+        </Style>
+
+        <Style x:Key="StockRow" TargetType="Border">
+            <Setter Property="Background"   Value="{StaticResource BgRow}"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding"      Value="12,10"/>
+            <Setter Property="Margin"       Value="0,0,0,6"/>
+        </Style>
+
+        <Style x:Key="ProductRow" TargetType="Border">
+            <Setter Property="Background"   Value="{StaticResource BgRow}"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding"      Value="12,10"/>
+            <Setter Property="Margin"       Value="0,0,0,6"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>
+            <RowDefinition Height="130"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ══ TOP BAR ══════════════════════════════════════════════ -->
+        <Border Grid.Row="0"
+                Background="{StaticResource BgTopBar}"
+                BorderThickness="0,0,0,1"
+                BorderBrush="{StaticResource BgDivider}">
+            <Grid Margin="28,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                    <TextBlock Text="{Binding BusinessName}"
+                               FontSize="17" FontWeight="Bold"
+                               Foreground="{StaticResource TextPrimary}"/>
+                    <TextBlock Text="{Binding WelcomeMessage}"
+                               FontSize="12"
+                               Foreground="{StaticResource TextMuted}"/>
+                </StackPanel>
+
+                <StackPanel Grid.Column="1" VerticalAlignment="Center"
+                            HorizontalAlignment="Right">
+                    <TextBlock Text="{Binding CurrentTime}"
+                               FontSize="20" FontWeight="Bold"
+                               Foreground="{StaticResource AccentBlue}"
+                               HorizontalAlignment="Right"
+                               FontFamily="Courier New"/>
+                    <TextBlock Text="{Binding CurrentDate}"
+                               FontSize="11"
+                               Foreground="{StaticResource TextMuted}"
+                               HorizontalAlignment="Right"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- ══ SUMMARY CARDS ════════════════════════════════════════ -->
+        <UniformGrid Grid.Row="1" Columns="5" Margin="28,14,28,0">
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="PRODUCTS"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding TotalProducts}"
+                               Style="{StaticResource StatNumber}"
+                               Foreground="{StaticResource TextPrimary}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Total active"
+                               Style="{StaticResource StatLabel}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="LOW STOCK"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding LowStockCount}"
+                               Style="{StaticResource StatNumber}"
+                               Foreground="{StaticResource AccentAmber}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Need reorder"
+                               Style="{StaticResource StatLabel}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="TODAY'S SALES"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding TodaysSalesCount}"
+                               Style="{StaticResource StatNumber}"
+                               Foreground="{StaticResource AccentGreen}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Transactions"
+                               Style="{StaticResource StatLabel}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="REVENUE"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1"
+                               Text="{Binding TodaysRevenue, StringFormat='XAF {0:N0}'}"
+                               Style="{StaticResource StatNumber}"
+                               FontSize="22"
+                               Foreground="{StaticResource AccentBlue}"
+                               VerticalAlignment="Center"
+                               TextTrimming="CharacterEllipsis"/>
+                    <TextBlock Grid.Row="2" Text="Today"
+                               Style="{StaticResource StatLabel}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="NEW TODAY"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding TodaysNewProducts}"
+                               Style="{StaticResource StatNumber}"
+                               Foreground="{StaticResource AccentPurple}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Products added"
+                               Style="{StaticResource StatLabel}"/>
+                </Grid>
+            </Border>
+
+        </UniformGrid>
+
+        <!-- ══ MAIN PANELS ═══════════════════════════════════════════ -->
+        <Grid Grid.Row="2" Margin="28,14,28,24">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="16"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- ── LOW STOCK PANEL ──────────────────────────────── -->
+            <Border Grid.Column="0" Style="{StaticResource Card}">
+                <DockPanel>
+                    <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                        <TextBlock Text="⚠  LOW STOCK ALERTS"
+                                   Style="{StaticResource SectionHeader}"
+                                   Margin="0" VerticalAlignment="Center"/>
+                        <Border Background="{StaticResource AccentAmber}"
+                                CornerRadius="10" Padding="8,2"
+                                HorizontalAlignment="Right">
+                            <TextBlock Text="{Binding LowStockCount}"
+                                       FontSize="11" FontWeight="Bold"
+                                       Foreground="{StaticResource BgPage}"/>
+                        </Border>
+                    </DockPanel>
+
+                    <TextBlock DockPanel.Dock="Top"
+                               Text="✓  All products are well stocked"
+                               FontSize="13"
+                               Foreground="{StaticResource AccentGreen}"
+                               HorizontalAlignment="Center" Margin="0,40,0,0"
+                               Visibility="{Binding LowStockItems.Count,
+                                            Converter={StaticResource ZeroToVisibility}}"/>
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding LowStockItems}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Style="{StaticResource StockRow}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                                <ColumnDefinition Width="46"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackPanel Grid.Column="0">
+                                                <TextBlock Text="{Binding Name}"
+                                                           FontSize="13" FontWeight="SemiBold"
+                                                           Foreground="{StaticResource TextPrimary}"/>
+                                                <TextBlock FontSize="11"
+                                                           Foreground="{StaticResource TextMuted}">
+                                                    <Run Text="{Binding SKU}"/>
+                                                    <Run Text=" · "/>
+                                                    <Run Text="{Binding Category}"/>
+                                                </TextBlock>
+                                            </StackPanel>
+
+                                            <TextBlock Grid.Column="1"
+                                                       Text="{Binding StockLabel}"
+                                                       FontSize="12"
+                                                       Foreground="{StaticResource TextSub}"
+                                                       VerticalAlignment="Center"
+                                                       Margin="0,0,10,0"/>
+
+                                            <Border Grid.Column="2"
+                                                    VerticalAlignment="Center"
+                                                    CornerRadius="4" Padding="4,2">
+                                                <Border.Style>
+                                                    <Style TargetType="Border">
+                                                        <Setter Property="Background"
+                                                                Value="{StaticResource AccentAmber}"/>
+                                                        <Style.Triggers>
+                                                            <DataTrigger Binding="{Binding Urgency}" Value="OUT">
+                                                                <Setter Property="Background"
+                                                                        Value="{StaticResource AccentRed}"/>
+                                                            </DataTrigger>
+                                                        </Style.Triggers>
+                                                    </Style>
+                                                </Border.Style>
+                                                <TextBlock Text="{Binding Urgency}"
+                                                           FontSize="10" FontWeight="Bold"
+                                                           Foreground="White"
+                                                           HorizontalAlignment="Center"/>
+                                            </Border>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <!-- ── TODAY'S ADDED PRODUCTS ───────────────────────── -->
+            <Border Grid.Column="2" Style="{StaticResource Card}">
+                <DockPanel>
+                    <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                        <TextBlock Text="✦  ADDED TODAY"
+                                   Style="{StaticResource SectionHeader}"
+                                   Margin="0" VerticalAlignment="Center"/>
+                        <Border Background="{StaticResource AccentPurple}"
+                                CornerRadius="10" Padding="8,2"
+                                HorizontalAlignment="Right">
+                            <TextBlock Text="{Binding TodaysNewProducts}"
+                                       FontSize="11" FontWeight="Bold"
+                                       Foreground="{StaticResource BgPage}"/>
+                        </Border>
+                    </DockPanel>
+
+                    <TextBlock DockPanel.Dock="Top"
+                               Text="No products added today"
+                               FontSize="13"
+                               Foreground="{StaticResource TextMuted}"
+                               HorizontalAlignment="Center" Margin="0,40,0,0"
+                               Visibility="{Binding TodaysAddedProducts.Count,
+                                            Converter={StaticResource ZeroToVisibility}}"/>
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding TodaysAddedProducts}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Style="{StaticResource ProductRow}">
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackPanel Grid.Column="0">
+                                                <TextBlock Text="{Binding Name}"
+                                                           FontSize="13" FontWeight="SemiBold"
+                                                           Foreground="{StaticResource TextPrimary}"/>
+                                                <TextBlock FontSize="11"
+                                                           Foreground="{StaticResource TextMuted}">
+                                                    <Run Text="{Binding SKU}"/>
+                                                    <Run Text=" · "/>
+                                                    <Run Text="{Binding Category}"/>
+                                                </TextBlock>
+                                            </StackPanel>
+
+                                            <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                                                <TextBlock Text="{Binding SellingPrice, StringFormat='XAF {0:N0}'}"
+                                                           FontSize="13" FontWeight="SemiBold"
+                                                           Foreground="{StaticResource AccentGreen}"
+                                                           HorizontalAlignment="Right"/>
+                                                <TextBlock Text="{Binding AddedDate, StringFormat='hh:mm tt'}"
+                                                           FontSize="11"
+                                                           Foreground="{StaticResource TextMuted}"
+                                                           HorizontalAlignment="Right"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+        </Grid>
+    </Grid>
+</UserControl>

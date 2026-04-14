@@ -1,0 +1,482 @@
+<UserControl x:Class="POS.UI.Views.DebtManagementView"
+        Background="{StaticResource BgPage}"
+        xmlns:converters="clr-namespace:POS.UI.Converters"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+
+
+
+
+
+    <UserControl.Resources>
+        
+
+        <!-- Invert bool for disabling panels when nothing selected -->
+        
+
+        <Style x:Key="Card" TargetType="Border">
+            <Setter Property="Background"   Value="{StaticResource BgCard}"/>
+            <Setter Property="CornerRadius" Value="12"/>
+            <Setter Property="Padding"      Value="16,14"/>
+            <Setter Property="Effect">
+                <Setter.Value>
+                    <DropShadowEffect Color="#000000" Opacity="0.35"
+                                      BlurRadius="14" ShadowDepth="2"/>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="SectionHeader" TargetType="TextBlock">
+            <Setter Property="FontSize"   Value="10"/>
+            <Setter Property="FontWeight" Value="SemiBold"/>
+            <Setter Property="Foreground" Value="{StaticResource TextMuted}"/>
+            <Setter Property="Margin"     Value="0,0,0,10"/>
+        </Style>
+
+        <Style x:Key="Label" TargetType="TextBlock">
+            <Setter Property="FontSize"   Value="12"/>
+            <Setter Property="Foreground" Value="{StaticResource TextMuted}"/>
+            <Setter Property="Margin"     Value="0,0,0,4"/>
+        </Style>
+
+        <Style x:Key="Input" TargetType="TextBox">
+            <Setter Property="Background"  Value="{StaticResource BgRow}"/>
+            <Setter Property="Foreground"  Value="{StaticResource TextPrimary}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BgDivider}"/>
+            <Setter Property="BorderThickness" Value="1"/>
+            <Setter Property="Padding"     Value="8,6"/>
+            <Setter Property="FontSize"    Value="13"/>
+            <Setter Property="Margin"      Value="0,0,0,12"/>
+        </Style>
+
+        <Style x:Key="ComboInput" TargetType="ComboBox">
+            <Setter Property="Background"  Value="{StaticResource BgRow}"/>
+            <Setter Property="Foreground"  Value="{StaticResource TextPrimary}"/>
+            <Setter Property="BorderBrush" Value="{StaticResource BgDivider}"/>
+            <Setter Property="Padding"     Value="8,6"/>
+            <Setter Property="FontSize"    Value="13"/>
+            <Setter Property="Margin"      Value="0,0,0,12"/>
+        </Style>
+
+        <Style x:Key="PrimaryBtn" TargetType="Button">
+            <Setter Property="Background"       Value="{StaticResource AccentBlue}"/>
+            <Setter Property="Foreground"       Value="#0F1117"/>
+            <Setter Property="FontWeight"       Value="SemiBold"/>
+            <Setter Property="FontSize"         Value="13"/>
+            <Setter Property="Padding"          Value="0,10"/>
+            <Setter Property="BorderThickness"  Value="0"/>
+            <Setter Property="Cursor"           Value="Hand"/>
+        </Style>
+
+        <Style x:Key="SecondaryBtn" TargetType="Button">
+            <Setter Property="Background"       Value="{StaticResource BgRow}"/>
+            <Setter Property="Foreground"       Value="{StaticResource TextPrimary}"/>
+            <Setter Property="FontSize"         Value="13"/>
+            <Setter Property="Padding"          Value="0,10"/>
+            <Setter Property="BorderThickness"  Value="0"/>
+            <Setter Property="Cursor"           Value="Hand"/>
+        </Style>
+
+        <Style x:Key="DebtRow" TargetType="Border">
+            <Setter Property="Background"   Value="{StaticResource BgRow}"/>
+            <Setter Property="CornerRadius" Value="8"/>
+            <Setter Property="Padding"      Value="12,10"/>
+            <Setter Property="Margin"       Value="0,0,0,6"/>
+            <Setter Property="Cursor"       Value="Hand"/>
+        </Style>
+
+        <Style x:Key="PaymentRow" TargetType="Border">
+            <Setter Property="Background"   Value="#1E2235"/>
+            <Setter Property="CornerRadius" Value="6"/>
+            <Setter Property="Padding"      Value="10,8"/>
+            <Setter Property="Margin"       Value="0,0,0,5"/>
+        </Style>
+    </UserControl.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="64"/>   <!-- Top bar      -->
+            <RowDefinition Height="100"/>  <!-- Summary cards -->
+            <RowDefinition Height="*"/>    <!-- Main content  -->
+            <RowDefinition Height="Auto"/> <!-- Status bar    -->
+        </Grid.RowDefinitions>
+
+        <!-- ══ TOP BAR ══════════════════════════════════════════════ -->
+        <Border Grid.Row="0"
+                Background="{StaticResource BgTopBar}"
+                BorderThickness="0,0,0,1"
+                BorderBrush="{StaticResource BgDivider}">
+            <Grid Margin="28,0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+
+                <StackPanel Grid.Column="0" VerticalAlignment="Center">
+                    <TextBlock Text="Debt Management"
+                               FontSize="17" FontWeight="Bold"
+                               Foreground="{StaticResource TextPrimary}"/>
+                    <TextBlock Text="Track and manage customer outstanding balances"
+                               FontSize="12" Foreground="{StaticResource TextMuted}"/>
+                </StackPanel>
+
+                <Button Grid.Column="1"
+                        Content="⟳  Refresh"
+                        Style="{StaticResource SecondaryBtn}"
+                        Command="{Binding RefreshCommand}"
+                        Padding="16,8"/>
+            </Grid>
+        </Border>
+
+        <!-- ══ SUMMARY CARDS ════════════════════════════════════════ -->
+        <UniformGrid Grid.Row="1" Columns="3" Margin="28,12,28,0">
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="TOTAL OUTSTANDING"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1"
+                               Text="{Binding TotalOutstanding, StringFormat='XAF {0:N0}'}"
+                               FontSize="22" FontWeight="Bold"
+                               Foreground="{StaticResource AccentRed}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Across all customers"
+                               FontSize="11" Foreground="{StaticResource TextMuted}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}" Margin="0,0,10,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="DEBTORS"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding TotalDebtors}"
+                               FontSize="28" FontWeight="Bold"
+                               Foreground="{StaticResource AccentAmber}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Customers with balance"
+                               FontSize="11" Foreground="{StaticResource TextMuted}"/>
+                </Grid>
+            </Border>
+
+            <Border Style="{StaticResource Card}">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+                    <TextBlock Grid.Row="0" Text="REGISTERED CUSTOMERS"
+                               Style="{StaticResource SectionHeader}"/>
+                    <TextBlock Grid.Row="1" Text="{Binding Customers.Count}"
+                               FontSize="28" FontWeight="Bold"
+                               Foreground="{StaticResource AccentBlue}"
+                               VerticalAlignment="Center"/>
+                    <TextBlock Grid.Row="2" Text="Eligible for credit"
+                               FontSize="11" Foreground="{StaticResource TextMuted}"/>
+                </Grid>
+            </Border>
+
+        </UniformGrid>
+
+        <!-- ══ MAIN CONTENT ══════════════════════════════════════════ -->
+        <Grid Grid.Row="2" Margin="28,14,28,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="220"/>  <!-- Customer list  -->
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="*"/>    <!-- Debt list      -->
+                <ColumnDefinition Width="12"/>
+                <ColumnDefinition Width="280"/>  <!-- Right panel    -->
+            </Grid.ColumnDefinitions>
+
+            <!-- ── CUSTOMER LIST ─────────────────────────────────── -->
+            <Border Grid.Column="0" Style="{StaticResource Card}">
+                <DockPanel>
+                    <TextBlock DockPanel.Dock="Top" Text="CUSTOMERS"
+                               Style="{StaticResource SectionHeader}"/>
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding Customers}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Margin="0,0,0,4" CornerRadius="8"
+                                            Padding="10,8" Cursor="Hand">
+                                        <Border.Style>
+                                            <Style TargetType="Border">
+                                                <Setter Property="Background" Value="Transparent"/>
+                                                <Style.Triggers>
+                                                    <DataTrigger Value="True">
+                                                        <DataTrigger.Binding>
+                                                            <MultiBinding>
+                                                                <MultiBinding.Converter>
+                                                                    <converters:EqualityConverter/>
+                                                                </MultiBinding.Converter>
+                                                                <Binding Path="."/>
+                                                                <Binding Path="DataContext.SelectedCustomer"
+                                                                         RelativeSource="{RelativeSource AncestorType=Window}"/>
+                                                            </MultiBinding>
+                                                        </DataTrigger.Binding>
+                                                        <Setter Property="Background" Value="{StaticResource BgRow}"/>
+                                                    </DataTrigger>
+                                                </Style.Triggers>
+                                            </Style>
+                                        </Border.Style>
+                                        <Border.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick"
+                                                          Command="{Binding DataContext.SelectCustomerCommand,
+                                                              RelativeSource={RelativeSource AncestorType=Window}}"
+                                                          CommandParameter="{Binding}"/>
+                                        </Border.InputBindings>
+                                        <StackPanel>
+                                            <TextBlock Text="{Binding Name}"
+                                                       FontSize="13" FontWeight="SemiBold"
+                                                       Foreground="{StaticResource TextPrimary}"/>
+                                            <TextBlock Text="{Binding Phone}"
+                                                       FontSize="11"
+                                                       Foreground="{StaticResource TextMuted}"/>
+                                        </StackPanel>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <!-- ── DEBT LIST ──────────────────────────────────────── -->
+            <Border Grid.Column="2" Style="{StaticResource Card}">
+                <DockPanel>
+                    <DockPanel DockPanel.Dock="Top" Margin="0,0,0,10">
+                        <TextBlock Text="OUTSTANDING DEBTS"
+                                   Style="{StaticResource SectionHeader}"
+                                   Margin="0" VerticalAlignment="Center"/>
+                        <Border Background="{StaticResource AccentRed}"
+                                CornerRadius="10" Padding="8,2"
+                                HorizontalAlignment="Right">
+                            <TextBlock Text="{Binding Debts.Count}"
+                                       FontSize="11" FontWeight="Bold"
+                                       Foreground="White"/>
+                        </Border>
+                    </DockPanel>
+
+                    <!-- Empty state -->
+                    <TextBlock DockPanel.Dock="Top"
+                               Text="✓  No outstanding debts"
+                               FontSize="13" Foreground="{StaticResource AccentGreen}"
+                               HorizontalAlignment="Center" Margin="0,40,0,0"
+                               Visibility="{Binding Debts.Count,
+                                            Converter={StaticResource ZeroToVisibility}}"/>
+
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <ItemsControl ItemsSource="{Binding Debts}">
+                            <ItemsControl.ItemTemplate>
+                                <DataTemplate>
+                                    <Border Style="{StaticResource DebtRow}">
+                                        <Border.InputBindings>
+                                            <MouseBinding MouseAction="LeftClick"
+                                                          Command="{Binding DataContext.SelectDebtCommand,
+                                                              RelativeSource={RelativeSource AncestorType=Window}}"
+                                                          CommandParameter="{Binding}"/>
+                                        </Border.InputBindings>
+                                        <Grid>
+                                            <Grid.ColumnDefinitions>
+                                                <ColumnDefinition Width="*"/>
+                                                <ColumnDefinition Width="Auto"/>
+                                            </Grid.ColumnDefinitions>
+
+                                            <StackPanel Grid.Column="0">
+                                                <TextBlock Text="{Binding Customer.Name}"
+                                                           FontSize="13" FontWeight="SemiBold"
+                                                           Foreground="{StaticResource TextPrimary}"/>
+                                                <TextBlock FontSize="11"
+                                                           Foreground="{StaticResource TextMuted}">
+                                                    <Run Text="Invoice:"/>
+                                                    <Run Text="{Binding Sale.Reference}"/>
+                                                    <Run Text=" · "/>
+                                                    <Run Text="{Binding CreatedAt, StringFormat='dd/MM/yyyy'}"/>
+                                                </TextBlock>
+                                                <TextBlock FontSize="11"
+                                                           Foreground="{StaticResource AccentAmber}"
+                                                           Visibility="{Binding DueDate,
+                                                               Converter={StaticResource NullToCollapsed}}">
+                                                    <Run Text="Due:"/>
+                                                    <Run Text="{Binding DueDate, StringFormat='dd/MM/yyyy'}"/>
+                                                </TextBlock>
+                                            </StackPanel>
+
+                                            <StackPanel Grid.Column="1" HorizontalAlignment="Right">
+                                                <TextBlock Text="{Binding Outstanding, StringFormat='XAF {0:N0}'}"
+                                                           FontSize="14" FontWeight="Bold"
+                                                           Foreground="{StaticResource AccentRed}"
+                                                           HorizontalAlignment="Right"/>
+                                                <TextBlock Text="{Binding TotalAmount, StringFormat='of XAF {0:N0}'}"
+                                                           FontSize="11"
+                                                           Foreground="{StaticResource TextMuted}"
+                                                           HorizontalAlignment="Right"/>
+                                            </StackPanel>
+                                        </Grid>
+                                    </Border>
+                                </DataTemplate>
+                            </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+                    </ScrollViewer>
+                </DockPanel>
+            </Border>
+
+            <!-- ── RIGHT PANEL: Record payment + history ─────────── -->
+            <Grid Grid.Column="4">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="12"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!-- Record payment card -->
+                <Border Grid.Row="0" Style="{StaticResource Card}"
+                        IsEnabled="{Binding HasSelectedDebt}">
+                    <StackPanel>
+                        <TextBlock Text="RECORD PAYMENT"
+                                   Style="{StaticResource SectionHeader}"/>
+
+                        <!-- Selected debt summary -->
+                        <Border Background="{StaticResource BgRow}"
+                                CornerRadius="6" Padding="10,8" Margin="0,0,0,12"
+                                Visibility="{Binding HasSelectedDebt,
+                                             Converter={StaticResource BoolToVisibility}}">
+                            <TextBlock Text="{Binding SelectedDebtSummary}"
+                                       FontSize="11"
+                                       Foreground="{StaticResource TextSub}"
+                                       TextWrapping="Wrap"/>
+                        </Border>
+
+                        <TextBlock Text="No debt selected"
+                                   FontSize="12" Foreground="{StaticResource TextMuted}"
+                                   Margin="0,0,0,12"
+                                   HorizontalAlignment="Center">
+                            <TextBlock.Style>
+                                <Style TargetType="TextBlock">
+                                    <Setter Property="Visibility" Value="Collapsed"/>
+                                    <Style.Triggers>
+                                        <DataTrigger Binding="{Binding HasSelectedDebt}" Value="False">
+                                            <Setter Property="Visibility" Value="Visible"/>
+                                        </DataTrigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </TextBlock.Style>
+                        </TextBlock>
+
+                        <TextBlock Text="Amount (XAF)" Style="{StaticResource Label}"/>
+                        <TextBox Text="{Binding RepaymentAmount, UpdateSourceTrigger=PropertyChanged}"
+                                 Style="{StaticResource Input}"/>
+
+                        <TextBlock Text="Payment Method" Style="{StaticResource Label}"/>
+                        <ComboBox SelectedItem="{Binding RepaymentMethod}"
+                                  Style="{StaticResource ComboInput}">
+                            <ComboBoxItem Content="Cash"/>
+                            <ComboBoxItem Content="Mobile Money"/>
+                            <ComboBoxItem Content="Bank Transfer"/>
+                        </ComboBox>
+
+                        <TextBlock Text="Notes (optional)" Style="{StaticResource Label}"/>
+                        <TextBox Text="{Binding RepaymentNotes, UpdateSourceTrigger=PropertyChanged}"
+                                 Style="{StaticResource Input}"
+                                 Height="60" TextWrapping="Wrap"
+                                 AcceptsReturn="True"/>
+
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="8"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <Button Grid.Column="0" Content="Record Payment"
+                                    Style="{StaticResource PrimaryBtn}"
+                                    Command="{Binding RecordPaymentCommand}"/>
+                            <Button Grid.Column="2" Content="🖶 Receipt"
+                                    Style="{StaticResource SecondaryBtn}"
+                                    Command="{Binding PrintDebtReceiptCommand}"/>
+                        </Grid>
+                    </StackPanel>
+                </Border>
+
+                <!-- Payment history card -->
+                <Border Grid.Row="2" Style="{StaticResource Card}">
+                    <DockPanel>
+                        <TextBlock DockPanel.Dock="Top" Text="PAYMENT HISTORY"
+                                   Style="{StaticResource SectionHeader}"/>
+
+                        <TextBlock DockPanel.Dock="Top"
+                                   Text="Select a debt to see payments"
+                                   FontSize="12" Foreground="{StaticResource TextMuted}"
+                                   HorizontalAlignment="Center" Margin="0,20,0,0"
+                                   Visibility="{Binding DebtPayments.Count,
+                                                Converter={StaticResource ZeroToVisibility}}"/>
+
+                        <ScrollViewer VerticalScrollBarVisibility="Auto">
+                            <ItemsControl ItemsSource="{Binding DebtPayments}">
+                                <ItemsControl.ItemTemplate>
+                                    <DataTemplate>
+                                        <Border Style="{StaticResource PaymentRow}">
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="Auto"/>
+                                                </Grid.ColumnDefinitions>
+                                                <StackPanel Grid.Column="0">
+                                                    <TextBlock Text="{Binding PaymentMethod}"
+                                                               FontSize="12" FontWeight="SemiBold"
+                                                               Foreground="{StaticResource TextPrimary}"/>
+                                                    <TextBlock Text="{Binding PaymentDate, StringFormat='dd/MM/yyyy HH:mm'}"
+                                                               FontSize="11"
+                                                               Foreground="{StaticResource TextMuted}"/>
+                                                    <TextBlock Text="{Binding Notes}"
+                                                               FontSize="11"
+                                                               Foreground="{StaticResource TextMuted}"
+                                                               TextWrapping="Wrap"/>
+                                                </StackPanel>
+                                                <TextBlock Grid.Column="1"
+                                                           Text="{Binding Amount, StringFormat='XAF {0:N0}'}"
+                                                           FontSize="13" FontWeight="Bold"
+                                                           Foreground="{StaticResource AccentGreen}"
+                                                           VerticalAlignment="Center"/>
+                                            </Grid>
+                                        </Border>
+                                    </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                            </ItemsControl>
+                        </ScrollViewer>
+                    </DockPanel>
+                </Border>
+            </Grid>
+        </Grid>
+
+        <!-- ══ STATUS BAR ════════════════════════════════════════════ -->
+        <Border Grid.Row="3" Padding="28,8"
+                Background="{StaticResource BgTopBar}"
+                BorderThickness="0,1,0,0"
+                BorderBrush="{StaticResource BgDivider}">
+            <TextBlock Text="{Binding StatusMessage}" FontSize="12">
+                <TextBlock.Style>
+                    <Style TargetType="TextBlock">
+                        <Setter Property="Foreground" Value="{StaticResource AccentGreen}"/>
+                        <Style.Triggers>
+                            <DataTrigger Binding="{Binding IsError}" Value="True">
+                                <Setter Property="Foreground" Value="{StaticResource AccentRed}"/>
+                            </DataTrigger>
+                        </Style.Triggers>
+                    </Style>
+                </TextBlock.Style>
+            </TextBlock>
+        </Border>
+
+    </Grid>
+</UserControl>

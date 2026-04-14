@@ -1,0 +1,1725 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\usermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\usermanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\cashierview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\cashierview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\dashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\payments\\debtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\payments\\debtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\customers\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\customers\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\products\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\converters\\zerotovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\converters\\zerotovisibilityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\loginview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\productview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\debtmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\debtmanagementview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\customerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\customerview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\cashierview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\cashierview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\admindashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\admindashboardview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\admindashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\admindashboardview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\loginview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\customerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\customerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\views\\debtmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\views\\debtmanagementview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\commands\\relaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\resources\\colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\customerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\cashierviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\cashierviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\viewmodels\\debtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\viewmodels\\debtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\commands\\asyncrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\commands\\asyncrelaycommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\resources\\colors.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\resources\\colors.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\converters\\equalityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\converters\\equalityconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\pos.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\pos.ui.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\pos.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\pos.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\converters\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\converters\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\converters\\inverseboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\converters\\inverseboolconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\converters\\nulltocollapsedconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\converters\\nulltocollapsedconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\pos.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\pos.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\sales\\receiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\sales\\receiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\pos.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\pos.services.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\seed\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\seed\\userseeder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\dtos\\salerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\dtos\\salerequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\sale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\saleitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\dtos\\saleitemdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77FAFCBB-63C4-EBA2-5D64-045EB9ABF45C}|POS.UI\\POS.UI.csproj|solutionrelative:pos.ui\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\context\\posdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\context\\posdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\context\\posdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\context\\posdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\sales\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\sales\\saleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\configurations\\productconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\configurations\\paymentconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\dtos\\receiptdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\isaleservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:global.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\ireceiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\ireceiptservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\customerbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\customerbalance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\payment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\integrations\\mobilemoneyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\integrations\\mobilemoneyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\integrations\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\integrations\\smsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\logging\\filelogger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\printing\\windowsprinterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\printing\\windowsprinterservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.infrastructure\\printing\\thermalreceiptprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6C7BF759-0005-4B57-6FCB-614A9ECE315E}|POS.Infrastructure\\POS.Infrastructure.csproj|solutionrelative:pos.infrastructure\\printing\\thermalreceiptprinter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.data\\configurations\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9EF8F12F-EDE7-8FD8-4C86-ADE3E0B357A7}|POS.Data\\POS.Data.csproj|solutionrelative:pos.data\\configurations\\saleconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\dtos\\paymentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\ipaymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\interfaces\\iinventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\enums\\userrole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\enums\\balancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\enums\\balancetype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.core\\enums\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{04871C49-73FD-0AFB-38AA-352C7E43ECFE}|POS.Core\\POS.Core.csproj|solutionrelative:pos.core\\enums\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Resources\\Colors.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Resources\\Colors.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Resources\\Styles.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Resources\\Styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\CashierViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\ViewModels\\CashierViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\App.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\App.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\MainWindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\ProductViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\ViewModels\\ProductViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\CashierView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\CashierView.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\BooleanToVisibilityConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Converters\\BooleanToVisibilityConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\CurrencyConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Converters\\CurrencyConverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\AsyncRelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Commands\\AsyncRelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Commands\\RelayCommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\DebtViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\ViewModels\\DebtViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\ViewModels\\LoginViewModel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DebtManagementView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\DebtManagementView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\ProductView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\ProductView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DashboardView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\DashboardView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\LoginView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\Views\\LoginView.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:WpfApp1\\MainWindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\reports\\inventoryreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\reports\\inventoryreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\reports\\salesreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\reports\\salesreportservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\payments\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\payments\\paymentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\inventory\\stockadjustmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\inventory\\stockadjustmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|c:\\users\\fridalynnk1\\desktop\\pos\\possystem\\pos.services\\inventory\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA141FFD-BF90-4E36-9FBD-7BF3476F8940}|POS.Services\\POS.Services.csproj|solutionrelative:pos.services\\inventory\\inventoryservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f53-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\UserManagementView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\UserManagementView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\UserManagementView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\UserManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-04-01T05:18:08.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CashierView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CashierView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\CashierView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CashierView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\CashierView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-20T00:43:58.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Customers\\CustomerService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Customers\\CustomerService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Customers\\CustomerService.cs",
+              "RelativeToolTip": "POS.Services\\Customers\\CustomerService.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAtwBMAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:17:29.96Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.xaml.cs",
+              "RelativeToolTip": "POS.UI\\App.xaml.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAAD4AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T01:53:57.17Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\MainWindow.xaml.cs",
+              "RelativeToolTip": "POS.UI\\MainWindow.xaml.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAADwAAABZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T02:14:22.606Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Products\\ProductService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Products\\ProductService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Products\\ProductService.cs",
+              "RelativeToolTip": "POS.Services\\Products\\ProductService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAtwBUAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T02:25:10.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DashboardViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\DashboardViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\DashboardViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\DashboardViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\DashboardViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T04:43:42.915Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DebtService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Payments\\DebtService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Payments\\DebtService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Payments\\DebtService.cs",
+              "RelativeToolTip": "POS.Services\\Payments\\DebtService.cs",
+              "ViewState": "AgIAAHIAAAAAAAAAAAAtwH8AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:16:53.801Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\MainWindow.xaml",
+              "RelativeToolTip": "POS.UI\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-23T01:19:35.778Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ZeroToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\ZeroToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Converters\\ZeroToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\ZeroToVisibilityConverter.cs",
+              "RelativeToolTip": "POS.UI\\Converters\\ZeroToVisibilityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T04:43:04.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "LoginView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\LoginView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\LoginView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\LoginView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\LoginView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:22:41.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\LoginViewModel.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAABMAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:20:26.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\ProductView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\ProductView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\ProductView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\ProductView.xaml.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAAAgAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T18:00:18.528Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DebtManagementView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\DebtManagementView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\DebtManagementView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\DebtManagementView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\DebtManagementView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-02T19:43:39.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CustomerView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CustomerView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\CustomerView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CustomerView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\CustomerView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:27:39.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "CashierView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CashierView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\CashierView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CashierView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\CashierView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-20T00:43:32.928Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "AdminDashboardView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\AdminDashboardView.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\AdminDashboardView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\AdminDashboardView.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Views\\AdminDashboardView.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T04:50:16.478Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "AdminDashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\AdminDashboardView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\AdminDashboardView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\AdminDashboardView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\AdminDashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-14T04:49:34.914Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\ProductView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\ProductView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\ProductView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\ProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-02T17:57:36.867Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\LoginView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-10T11:22:35.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DebtManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\DebtManagementView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\DebtManagementView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\DebtManagementView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\DebtManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T03:11:14.918Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "CustomerView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CustomerView.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Views\\CustomerView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Views\\CustomerView.xaml",
+              "RelativeToolTip": "POS.UI\\Views\\CustomerView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T06:27:23.889Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAIYAAAAAAAAAAAAUwJcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:20:55.364Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "POS.UI\\Commands\\RelayCommand.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:35:52.254Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Resources\\Colors.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\Resources\\Colors.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Resources\\Colors.xaml",
+              "RelativeToolTip": "POS.UI\\Resources\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-03-15T04:27:53.324Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.xaml",
+              "RelativeDocumentMoniker": "POS.UI\\App.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.xaml",
+              "RelativeToolTip": "POS.UI\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-19T01:53:30.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CustomerViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\CustomerViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\CustomerViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\CustomerViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\CustomerViewModel.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAAAcwGEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:25:06.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "CashierViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\CashierViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\CashierViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\CashierViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\CashierViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T02:28:04.253Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "ResourcePart.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "RelativeToolTip": "..\\..\\..\\AppData\\Local\\Temp\\.vsdbgsrc\\6b2dfb9d5e4949b718ee78fa9415cabf37518e9447a2764ba224d240518b710f\\ResourcePart.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAAACcAAAAEAAAAAQAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:58:06.898Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "DebtViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\DebtViewModel.cs",
+              "RelativeDocumentMoniker": "POS.UI\\ViewModels\\DebtViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\ViewModels\\DebtViewModel.cs",
+              "RelativeToolTip": "POS.UI\\ViewModels\\DebtViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-19T23:20:23.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "AsyncRelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Commands\\AsyncRelayCommand.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Commands\\AsyncRelayCommand.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Commands\\AsyncRelayCommand.cs",
+              "RelativeToolTip": "POS.UI\\Commands\\AsyncRelayCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:47:39.487Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.config",
+              "RelativeDocumentMoniker": "POS.UI\\App.config",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\App.config",
+              "RelativeToolTip": "POS.UI\\App.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-23T01:19:54.312Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\ICustomerService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\ICustomerService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T06:20:45.024Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Colors.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Resources\\Colors.xaml.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Resources\\Colors.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Resources\\Colors.xaml.cs",
+              "RelativeToolTip": "POS.UI\\Resources\\Colors.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T09:44:59.749Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "POS.UI.csproj",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\POS.UI.csproj",
+              "RelativeDocumentMoniker": "POS.UI\\POS.UI.csproj",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\POS.UI.csproj",
+              "RelativeToolTip": "POS.UI\\POS.UI.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-19T01:45:35.474Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "EqualityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\EqualityConverter.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Converters\\EqualityConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\EqualityConverter.cs",
+              "RelativeToolTip": "POS.UI\\Converters\\EqualityConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-14T11:02:42.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "POS.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\POS.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\POS.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\POS.Infrastructure.csproj",
+              "RelativeToolTip": "POS.Infrastructure\\POS.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-14T12:06:07.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Converters\\CurrencyConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\CurrencyConverter.cs",
+              "RelativeToolTip": "POS.UI\\Converters\\CurrencyConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T03:47:05.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "InverseBoolConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\InverseBoolConverter.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Converters\\InverseBoolConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\InverseBoolConverter.cs",
+              "RelativeToolTip": "POS.UI\\Converters\\InverseBoolConverter.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T03:27:35.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "NullToCollapsedConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\NullToCollapsedConverter.cs",
+              "RelativeDocumentMoniker": "POS.UI\\Converters\\NullToCollapsedConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\Converters\\NullToCollapsedConverter.cs",
+              "RelativeToolTip": "POS.UI\\Converters\\NullToCollapsedConverter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-15T03:36:24.585Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "POS.Data.csproj",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\POS.Data.csproj",
+              "RelativeDocumentMoniker": "POS.Data\\POS.Data.csproj",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\POS.Data.csproj",
+              "RelativeToolTip": "POS.Data\\POS.Data.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-14T12:00:32.614Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IProductService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\IProductService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IProductService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:40:02.21Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ReceiptService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Sales\\ReceiptService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Sales\\ReceiptService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Sales\\ReceiptService.cs",
+              "RelativeToolTip": "POS.Services\\Sales\\ReceiptService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:14:57.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "POS.Services.csproj",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\POS.Services.csproj",
+              "RelativeDocumentMoniker": "POS.Services\\POS.Services.csproj",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\POS.Services.csproj",
+              "RelativeToolTip": "POS.Services\\POS.Services.csproj",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAwAMAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-02-14T12:03:47.108Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "UserSeeder.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Seed\\UserSeeder.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Seed\\UserSeeder.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Seed\\UserSeeder.cs",
+              "RelativeToolTip": "POS.Data\\Seed\\UserSeeder.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAywBcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-10T11:06:34.858Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\User.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:46:16.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "SaleRequestDto.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\SaleRequestDto.cs",
+              "RelativeDocumentMoniker": "POS.Core\\DTOs\\SaleRequestDto.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\SaleRequestDto.cs",
+              "RelativeToolTip": "POS.Core\\DTOs\\SaleRequestDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:57:14.578Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "Sale.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Sale.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\Sale.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Sale.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\Sale.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAuwBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:43:18.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "SaleItem.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\SaleItem.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\SaleItem.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\SaleItem.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\SaleItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAIBJwBUAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:44:11.448Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "SaleItemDto.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\SaleItemDto.cs",
+              "RelativeDocumentMoniker": "POS.Core\\DTOs\\SaleItemDto.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\SaleItemDto.cs",
+              "RelativeToolTip": "POS.Core\\DTOs\\SaleItemDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T17:27:10.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "POS.UI\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.UI\\AssemblyInfo.cs",
+              "RelativeToolTip": "POS.UI\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-23T01:19:26.87Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "PosDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Context\\PosDbContext.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Context\\PosDbContext.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Context\\PosDbContext.cs",
+              "RelativeToolTip": "POS.Data\\Context\\PosDbContext.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAIBQwA0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:11:03.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "PosDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Context\\PosDbContextFactory.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Context\\PosDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Context\\PosDbContextFactory.cs",
+              "RelativeToolTip": "POS.Data\\Context\\PosDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAxwA0AAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T13:49:54.106Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.targets",
+              "ViewState": "AgIAAHwAAAAAAAAAAAAlwIkAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-02T18:54:54.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "SaleService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Sales\\SaleService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Sales\\SaleService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Sales\\SaleService.cs",
+              "RelativeToolTip": "POS.Services\\Sales\\SaleService.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAIBZwDUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:14:40.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\Product.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Product.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\Product.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAA8wB0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:42:05.481Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\8.0.418\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.Sdk.DefaultItems.Shared.targets",
+              "ViewState": "AgIAAAQAAAAAAAAAAABRwBUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-03-02T02:16:09.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "ProductConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Configurations\\ProductConfiguration.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\ProductConfiguration.cs",
+              "RelativeToolTip": "POS.Data\\Configurations\\ProductConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:12:13.077Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "PaymentConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\PaymentConfiguration.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Configurations\\PaymentConfiguration.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\PaymentConfiguration.cs",
+              "RelativeToolTip": "POS.Data\\Configurations\\PaymentConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:13:06.639Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "ReceiptDto.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\ReceiptDto.cs",
+              "RelativeDocumentMoniker": "POS.Core\\DTOs\\ReceiptDto.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\ReceiptDto.cs",
+              "RelativeToolTip": "POS.Core\\DTOs\\ReceiptDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:58:22.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "Microsoft.NET.RuntimeIdentifierInference.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.RuntimeIdentifierInference.targets",
+              "ViewState": "AgIAAHEBAAAAAAAAAAAAwHUBAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-16T17:39:22.93Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ISaleService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\ISaleService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\ISaleService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\ISaleService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\ISaleService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:53:51.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "Colors.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Colors.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Colors.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:31:04.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "global.json",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\global.json",
+              "RelativeDocumentMoniker": "global.json",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\global.json",
+              "RelativeToolTip": "global.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-19T01:09:30.608Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "Colors.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Colors.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Colors.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Resources\\Colors.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:43:50.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "Styles.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Styles.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Resources\\Styles.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-16T15:43:50.837Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "Styles.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Resources\\Styles.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Resources\\Styles.xaml",
+              "RelativeToolTip": "WpfApp1\\Resources\\Styles.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:31:33.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "CashierViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\CashierViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\CashierViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\CashierViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\CashierViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:26:53.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\App.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:53:41.353Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\App.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.xaml",
+              "RelativeToolTip": "WpfApp1\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T14:19:54.218Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "Microsoft.PackageDependencyResolution.targets",
+              "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ToolTip": "C:\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\Program Files\\dotnet\\sdk\\10.0.200-preview.0.26103.119\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAlwPwAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2026-02-16T15:13:58.069Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T11:27:56.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "IReceiptService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IReceiptService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\IReceiptService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IReceiptService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\IReceiptService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:55:11.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.config",
+              "RelativeDocumentMoniker": "WpfApp1\\App.config",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\App.config",
+              "RelativeToolTip": "WpfApp1\\App.config",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2026-02-15T16:15:45.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\ProductViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:27:43.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "CashierView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\CashierView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml",
+              "RelativeToolTip": "WpfApp1\\Views\\CashierView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:24:02.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "CashierView.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\CashierView.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\CashierView.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\Views\\CashierView.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-15T16:31:28.229Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "CustomerBalance.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\CustomerBalance.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\CustomerBalance.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\CustomerBalance.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\CustomerBalance.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAqwBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:45:15.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "Payment.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Payment.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\Payment.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Payment.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\Payment.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAqwBcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:45:47.804Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Entities\\Customer.cs",
+              "RelativeToolTip": "POS.Core\\Entities\\Customer.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAqwBYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:44:47.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 92,
+              "Title": "BooleanToVisibilityConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Converters\\BooleanToVisibilityConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\BooleanToVisibilityConverter.cs",
+              "RelativeToolTip": "WpfApp1\\Converters\\BooleanToVisibilityConverter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:29:50.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 93,
+              "Title": "CurrencyConverter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\CurrencyConverter.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Converters\\CurrencyConverter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Converters\\CurrencyConverter.cs",
+              "RelativeToolTip": "WpfApp1\\Converters\\CurrencyConverter.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:29:28.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 94,
+              "Title": "AsyncRelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\AsyncRelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Commands\\AsyncRelayCommand.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\AsyncRelayCommand.cs",
+              "RelativeToolTip": "WpfApp1\\Commands\\AsyncRelayCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:28:57.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 95,
+              "Title": "RelayCommand.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\RelayCommand.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\Commands\\RelayCommand.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Commands\\RelayCommand.cs",
+              "RelativeToolTip": "WpfApp1\\Commands\\RelayCommand.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:28:39.434Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 96,
+              "Title": "DebtViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\DebtViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\DebtViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\DebtViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\DebtViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:28:05.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 97,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "RelativeToolTip": "WpfApp1\\ViewModels\\LoginViewModel.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:26:27.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 98,
+              "Title": "DebtManagementView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DebtManagementView.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\DebtManagementView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DebtManagementView.xaml",
+              "RelativeToolTip": "WpfApp1\\Views\\DebtManagementView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:24:52.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 99,
+              "Title": "ProductView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\ProductView.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\ProductView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\ProductView.xaml",
+              "RelativeToolTip": "WpfApp1\\Views\\ProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:24:31.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 100,
+              "Title": "DashboardView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DashboardView.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\DashboardView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\DashboardView.xaml",
+              "RelativeToolTip": "WpfApp1\\Views\\DashboardView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:23:22.157Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 101,
+              "Title": "LoginView.xaml",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\LoginView.xaml",
+              "RelativeDocumentMoniker": "WpfApp1\\Views\\LoginView.xaml",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\Views\\LoginView.xaml",
+              "RelativeToolTip": "WpfApp1\\Views\\LoginView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2026-02-14T12:22:42.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "MobileMoneyService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Integrations\\MobileMoneyService.cs",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\Integrations\\MobileMoneyService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Integrations\\MobileMoneyService.cs",
+              "RelativeToolTip": "POS.Infrastructure\\Integrations\\MobileMoneyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:21:08.502Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "SmsService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Integrations\\SmsService.cs",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\Integrations\\SmsService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Integrations\\SmsService.cs",
+              "RelativeToolTip": "POS.Infrastructure\\Integrations\\SmsService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:20:49.099Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "FileLogger.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Logging\\FileLogger.cs",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\Logging\\FileLogger.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Logging\\FileLogger.cs",
+              "RelativeToolTip": "POS.Infrastructure\\Logging\\FileLogger.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:19:49.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "WindowsPrinterService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Printing\\WindowsPrinterService.cs",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\Printing\\WindowsPrinterService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Printing\\WindowsPrinterService.cs",
+              "RelativeToolTip": "POS.Infrastructure\\Printing\\WindowsPrinterService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:19:16.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "ThermalReceiptPrinter.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Printing\\ThermalReceiptPrinter.cs",
+              "RelativeDocumentMoniker": "POS.Infrastructure\\Printing\\ThermalReceiptPrinter.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Infrastructure\\Printing\\ThermalReceiptPrinter.cs",
+              "RelativeToolTip": "POS.Infrastructure\\Printing\\ThermalReceiptPrinter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:18:56.977Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 103,
+              "Title": "InventoryReportService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Reports\\InventoryReportService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Reports\\InventoryReportService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Reports\\InventoryReportService.cs",
+              "RelativeToolTip": "POS.Services\\Reports\\InventoryReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:18:15.089Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 104,
+              "Title": "SalesReportService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Reports\\SalesReportService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Reports\\SalesReportService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Reports\\SalesReportService.cs",
+              "RelativeToolTip": "POS.Services\\Reports\\SalesReportService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:17:54.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 105,
+              "Title": "PaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Payments\\PaymentService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Payments\\PaymentService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Payments\\PaymentService.cs",
+              "RelativeToolTip": "POS.Services\\Payments\\PaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:16:36.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 106,
+              "Title": "StockAdjustmentService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Inventory\\StockAdjustmentService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Inventory\\StockAdjustmentService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Inventory\\StockAdjustmentService.cs",
+              "RelativeToolTip": "POS.Services\\Inventory\\StockAdjustmentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:16:00.945Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 107,
+              "Title": "InventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Inventory\\InventoryService.cs",
+              "RelativeDocumentMoniker": "POS.Services\\Inventory\\InventoryService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Services\\Inventory\\InventoryService.cs",
+              "RelativeToolTip": "POS.Services\\Inventory\\InventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:15:37.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "SaleConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\SaleConfiguration.cs",
+              "RelativeDocumentMoniker": "POS.Data\\Configurations\\SaleConfiguration.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Data\\Configurations\\SaleConfiguration.cs",
+              "RelativeToolTip": "POS.Data\\Configurations\\SaleConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T12:12:46.544Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "PaymentDto.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\PaymentDto.cs",
+              "RelativeDocumentMoniker": "POS.Core\\DTOs\\PaymentDto.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\DTOs\\PaymentDto.cs",
+              "RelativeToolTip": "POS.Core\\DTOs\\PaymentDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:58:02.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "IPaymentService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IPaymentService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\IPaymentService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IPaymentService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\IPaymentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:54:43.942Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "IInventoryService.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IInventoryService.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Interfaces\\IInventoryService.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Interfaces\\IInventoryService.cs",
+              "RelativeToolTip": "POS.Core\\Interfaces\\IInventoryService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:54:23.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "UserRole.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\UserRole.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Enums\\UserRole.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\UserRole.cs",
+              "RelativeToolTip": "POS.Core\\Enums\\UserRole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:47:46.383Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "BalanceType.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\BalanceType.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Enums\\BalanceType.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\BalanceType.cs",
+              "RelativeToolTip": "POS.Core\\Enums\\BalanceType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:48:48.198Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "POS.Core\\Enums\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\POS.Core\\Enums\\PaymentMethod.cs",
+              "RelativeToolTip": "POS.Core\\Enums\\PaymentMethod.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:48:15.111Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 102,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WpfApp1\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\fridalynnk1\\Desktop\\POS\\POSSystem\\WpfApp1\\MainWindow.xaml.cs",
+              "RelativeToolTip": "WpfApp1\\MainWindow.xaml.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-14T11:27:53.477Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

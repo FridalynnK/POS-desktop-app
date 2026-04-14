@@ -1,0 +1,163 @@
+﻿<Window x:Class="POS.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="POS System" Height="720" Width="1200"
+        MinHeight="600" MinWidth="900"
+        WindowStartupLocation="CenterScreen">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ── LEFT NAV BAR ──────────────────────────────────────── -->
+        <Border Grid.Column="0"
+                Background="#1E1E2E"
+                BorderThickness="0,0,1,0"
+                BorderBrush="#2E2E3E">
+            <DockPanel>
+
+                <!-- Logo / App name + role -->
+                <StackPanel DockPanel.Dock="Top" Margin="20,24,20,32">
+                    <TextBlock Text="POS System"
+                               FontSize="18" FontWeight="Bold"
+                               Foreground="White"/>
+                    <TextBlock x:Name="RoleLabel"
+                               FontSize="11"
+                               Foreground="#888"/>
+                </StackPanel>
+
+                <!-- Bottom: user info + logout -->
+                <Border DockPanel.Dock="Bottom"
+                        BorderThickness="0,1,0,0"
+                        BorderBrush="#2E2E3E"
+                        Padding="20,16">
+                    <StackPanel>
+                        <TextBlock x:Name="UserNameLabel"
+                                   FontSize="13" FontWeight="SemiBold"
+                                   Foreground="White"/>
+                        <Button Content="⚙  My Profile"
+                                x:Name="ProfileBtn"
+                                Click="ProfileBtn_Click"
+                                Background="Transparent"
+                                Foreground="#888"
+                                BorderThickness="0" Cursor="Hand"
+                                FontSize="12" HorizontalAlignment="Left"
+                                Margin="0,6,0,0" Padding="0"/>
+                        <Button Content="↩  Logout"
+                                x:Name="LogoutBtn"
+                                Click="LogoutBtn_Click"
+                                Background="Transparent"
+                                Foreground="#E53935"
+                                BorderThickness="0" Cursor="Hand"
+                                FontSize="12" HorizontalAlignment="Left"
+                                Margin="0,4,0,0" Padding="0"/>
+                    </StackPanel>
+                </Border>
+
+                <!-- Nav buttons -->
+                <StackPanel Margin="12,0">
+                    <Button x:Name="NavDashboard"
+                            Content="📊  Dashboard"
+                            Tag="Dashboard"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavSales"
+                            Content="🛒  Sales"
+                            Tag="Sales"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavProducts"
+                            Content="📦  Products"
+                            Tag="Products"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavCustomers"
+                            Content="👥  Customers"
+                            Tag="Customers"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavDebts"
+                            Content="💳  Debts"
+                            Tag="Debts"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavReports"
+                            Content="📈  Reports"
+                            Tag="Reports"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                    <Button x:Name="NavUsers"
+                            Content="👤  Users"
+                            Tag="Users"
+                            Click="Nav_Click"
+                            HorizontalAlignment="Stretch"
+                            HorizontalContentAlignment="Left"
+                            Background="Transparent"
+                            Foreground="White"
+                            BorderThickness="0"
+                            Padding="12,10"
+                            Margin="0,2"
+                            Cursor="Hand"
+                            FontSize="13"/>
+                </StackPanel>
+
+            </DockPanel>
+        </Border>
+
+        <!-- ── CONTENT AREA ──────────────────────────────────────── -->
+        <ContentControl Grid.Column="1"
+                        x:Name="MainContent"
+                        Background="#F5F5F5"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,50 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using POS.Core.Interfaces;
+using POS.Data.Context;
+using POS.Services.Products;
+//using POS.Services.Receipts;
+using POS.Services.Sales;
+using POS.UI.ViewModels;
+using POS.UI.Views;
+using System;
+using System.Windows;
+
+namespace POS.UI
+{
+    public partial class App : Application
+    {
+        public static IServiceProvider? ServiceProvider { get; private set; }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            var services = new ServiceCollection();
+
+            // Register DbContext
+            services.AddDbContext<PosDbContext>(options =>
+                options.UseSqlServer(
+                    "Server=DESKTOP-EMHUU2O\\SQLEXPRESS;Database=POSSystemDB;Trusted_Connection=True;TrustServerCertificate=True;"
+                ));
+
+            // Register Services
+            services.AddScoped<ISaleService, SaleService>();
+            services.AddScoped<IReceiptService, ReceiptService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            // Register ViewModels
+            services.AddScoped<CashierViewModel>();
+            services.AddScoped<ProductViewModel>();
+
+            // Register Views
+            services.AddScoped<ProductView>();
+
+            ServiceProvider = services.BuildServiceProvider();
+
+            base.OnStartup(e);
+
+            // 🔥 THIS IS THE MISSING PART
+            var productView = ServiceProvider.GetRequiredService<ProductView>();
+            productView.Show();
+        }
+    }
+}

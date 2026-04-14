@@ -1,0 +1,17 @@
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Data.deps.json
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Data.runtimeconfig.json
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Data.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Data.pdb
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Core.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\bin\Debug\net8.0-windows\POS.Core.pdb
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.csproj.AssemblyReference.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.AssemblyInfoInputs.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.AssemblyInfo.cs
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.csproj.CoreCompileInputs.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.csproj.Up2Date
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\refint\POS.Data.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.pdb
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\POS.Data.genruntimeconfig.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Data\obj\Debug\net8.0-windows\ref\POS.Data.dll

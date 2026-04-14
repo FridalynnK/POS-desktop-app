@@ -1,0 +1,47 @@
+﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using POS.Core.Interfaces;
+using POS.Data.Context;
+using POS.Services.Products;
+using POS.Services.Sales;
+using POS.UI.ViewModels;
+using System.Windows;
+
+namespace POS.UI
+{
+    public partial class App : Application
+    {
+        public static IServiceProvider? ServiceProvider { get; private set; }
+
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            var services = new ServiceCollection();
+
+            // Register DbContext once, with scoped lifetime
+            services.AddDbContext<PosDbContext>(options =>
+                options.UseSqlServer(
+                    "Server=DESKTOP-EMHUU2O\\SQLEXPRESS;Database=POSSystemDB;Trusted_Connection=True;TrustServerCertificate=True;"
+                ), ServiceLifetime.Scoped);
+
+            // Register services as scoped
+            services.AddScoped<ISaleService, SaleService>();
+            services.AddScoped<IReceiptService, ReceiptService>();
+            services.AddScoped<IProductService, ProductService>();
+
+            // View models and views as transient
+            services.AddTransient<CashierViewModel>();
+            services.AddTransient<ProductViewModel>();
+            services.AddTransient<Views.CashierView>();
+            services.AddTransient<Views.ProductView>();
+
+            ServiceProvider = services.BuildServiceProvider();
+
+            // Create a scope and resolve the startup window so scoped services are used in an explicit scope
+            using var scope = ServiceProvider.CreateScope();
+            var main = scope.ServiceProvider.GetRequiredService<Views.ProductView>();
+            main.Show();
+
+            base.OnStartup(e);
+        }
+    }
+}

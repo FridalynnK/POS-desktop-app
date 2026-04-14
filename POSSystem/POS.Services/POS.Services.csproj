@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows</TargetFramework>
+	  <UseSystemDrawing>true</UseSystemDrawing>
+	  <UseWPF>true</UseWPF>
+	  <UseSystemDrawing>true</UseSystemDrawing>
+	  <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+
+	  <PackageReference Include="BCrypt.Net-Next" Version="4.1.0" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.8" />
+
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.8">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="System.Drawing.Common" Version="8.0.0" />
+    <ProjectReference Include="..\POS.Core\POS.Core.csproj" />
+    <ProjectReference Include="..\POS.Data\POS.Data.csproj" />
+    <ProjectReference Include="..\POS.Infrastructure\POS.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="POS.Core/POS.Core.csproj" />
+  <Project Path="POS.Data/POS.Data.csproj" />
+  <Project Path="POS.Infrastructure/POS.Infrastructure.csproj" />
+  <Project Path="POS.Services/POS.Services.csproj" />
+  <Project Path="POS.UI/POS.UI.csproj" />
+</Solution>

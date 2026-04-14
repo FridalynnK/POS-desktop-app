@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0-windows</TargetFramework>
+		<UseWPF>true</UseWPF>
+		<Nullable>enable</Nullable>
+		<OutputType>WinExe</OutputType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\POS.Core\POS.Core.csproj" />
+		<ProjectReference Include="..\POS.Data\POS.Data.csproj" />
+		<ProjectReference Include="..\POS.Services\POS.Services.csproj" />
+	</ItemGroup>
+
+</Project>

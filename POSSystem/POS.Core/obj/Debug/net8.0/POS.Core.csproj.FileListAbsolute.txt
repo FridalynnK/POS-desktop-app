@@ -1,0 +1,11 @@
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\bin\Debug\net8.0\POS.Core.deps.json
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\bin\Debug\net8.0\POS.Core.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\bin\Debug\net8.0\POS.Core.pdb
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.AssemblyInfoInputs.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.AssemblyInfo.cs
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.csproj.CoreCompileInputs.cache
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\refint\POS.Core.dll
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\POS.Core.pdb
+C:\Users\fridalynnk1\Desktop\POS\POSSystem\POS.Core\obj\Debug\net8.0\ref\POS.Core.dll

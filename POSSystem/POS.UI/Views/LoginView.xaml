@@ -1,0 +1,75 @@
+<Window x:Class="POS.UI.Views.LoginView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="POS Login" Height="340" Width="400"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize">
+
+    <Window.Resources>
+        <BooleanToVisibilityConverter x:Key="BoolToVisibility"/>
+    </Window.Resources>
+
+    <Grid Background="#F5F5F5">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center" Width="300">
+
+            <!-- Title -->
+            <TextBlock Text="Point of Sale" FontSize="24" FontWeight="Bold"
+                       HorizontalAlignment="Center" Margin="0,0,0,24"
+                       Foreground="#1A1A2E"/>
+
+            <!-- Username -->
+            <TextBlock Text="Username" FontSize="13" Margin="0,0,0,4"/>
+            <TextBox x:Name="UsernameBox"
+                     Text="{Binding Username, UpdateSourceTrigger=PropertyChanged}"
+                     FontSize="14" Padding="8,6" Margin="0,0,0,14"/>
+
+            <!-- Password -->
+            <TextBlock Text="Password" FontSize="13" Margin="0,0,0,4"/>
+
+            <!-- Password field with show/hide toggle -->
+            <Grid Margin="0,0,0,6">
+                <!-- Masked input (default) -->
+                <PasswordBox x:Name="PasswordBox"
+                             FontSize="14" Padding="8,6"
+                             KeyDown="PasswordBox_KeyDown"/>
+
+                <!-- Plain text input (shown when toggled) -->
+                <TextBox x:Name="PasswordTextBox"
+                         FontSize="14" Padding="8,6"
+                         Visibility="Collapsed"
+                         KeyDown="PasswordTextBox_KeyDown"/>
+
+                <!-- Eye toggle button -->
+                <Button x:Name="TogglePasswordButton"
+                        Width="30" Height="20"
+                        HorizontalAlignment="Right"
+                        VerticalAlignment="Center"
+                        Margin="0,0,6,0"
+                        Background="Transparent"
+                        BorderThickness="0"
+                        Cursor="Hand"
+                        FontSize="12"
+                        Content="👁"
+                        Click="TogglePassword_Click"/>
+            </Grid>
+
+            <!-- Error message -->
+            <TextBlock Text="{Binding ErrorMessage}"
+                       Foreground="Red" FontSize="12"
+                       Margin="0,0,0,10" TextWrapping="Wrap"/>
+
+            <!-- Login button -->
+            <Button Content="Login"
+                    FontSize="14" Padding="0,10"
+                    Background="#1A1A2E" Foreground="White"
+                    BorderThickness="0" Cursor="Hand"
+                    Click="LoginButton_Click"/>
+
+            <!-- Loading indicator -->
+            <TextBlock Text="Authenticating..."
+                       FontSize="12" HorizontalAlignment="Center" Margin="0,8,0,0"
+                       Foreground="Gray"
+                       Visibility="{Binding IsLoading, Converter={StaticResource BoolToVisibility}}"/>
+        </StackPanel>
+    </Grid>
+</Window>
